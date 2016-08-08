@@ -46,7 +46,7 @@ foreach($matches as $match)
 <html>
 <head>
 	<title>البدء في التثبيت</title>
-	<meta http-equiv="Content-Type" content="text/html; charset=windows-1251" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
