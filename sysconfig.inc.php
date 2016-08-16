@@ -116,6 +116,9 @@ define('JWB', SWB.'js/');
 // library automation module web root dir
 define('MWB', SWB.'admin/'.MDL.'/');
 
+// repository web base dir
+define('REPO_WBS', SWB.REPO.'/');
+
 // item status rules
 define('NO_LOAN_TRANSACTION', 1);
 define('SKIP_STOCK_TAKE', 2);
@@ -368,10 +371,44 @@ $sysconf['z3950_max_result'] = 50;
 $sysconf['z3950_source'][1] = array('uri' => 'z3950.loc.gov:7090/voyager', 'name' => 'Library of Congress Voyager');
 $sysconf['z3950_SRU_source'][1] = array('uri' => 'http://z3950.loc.gov:7090/voyager', 'name' => 'Library of Congress SRU Voyager');
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * Peer to peer server config
  */
 $sysconf['p2pserver'][1] = array('uri' => 'http://127.0.0.1/slims7_cendana', 'name' => 'SLiMS Library');
+$sysconf['p2pserver'][2] = array('uri' => 'http://192.168.70.117:8089/cendana', 'name' => 'Perpustakaan XYZ');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * User and member login method
@@ -482,7 +519,7 @@ $sysconf['ipaccess']['smc-reporting'] = 'all';
 $sysconf['ipaccess']['smc-serialcontrol'] = 'all';
 
 // OAI-PMH settings
-$sysconf['OAI']['enable'] = false;
+$sysconf['OAI']['enable'] = true;
 $sysconf['OAI']['identifierPrefix'] = 'oai:slims/';
 $sysconf['OAI']['Identify']['baseURL'] = 'http://'.@$_SERVER['SERVER_NAME'].':'.@$_SERVER['SERVER_PORT'].SWB.'oai.php';
 $sysconf['OAI']['Identify']['repositoryName'] = 'SLiMS Senayan Library Management System OAI-PMh';
