@@ -276,7 +276,7 @@
 <html>
 <head>
 	<title>الخطوة 2 | تثبيت سينيان</title>
-	<meta http-equiv="Content-Type" content="text/html; charset=windows-1251" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
